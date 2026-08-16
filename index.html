@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SuperDates WMS - Enterprise Omnichannel Warehouse Management System</title>
+  
+  <!-- SEO & Application Metadata -->
+  <meta name="description" content="SuperDates Enterprise Omnichannel Warehouse Management System (WMS) - High-throughput fulfillment, 5-state ACID double-entry inventory ledger, wave batching, and courier integrations." />
+  
+  <!-- Typography & Design System -->
+  <link rel="stylesheet" href="css/design-system.css" />
+  
+  <!-- Vector SVG Icon Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%234f46e5' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z'></path></svg>" />
+</head>
+<body>
+  <div id="app-container">
+    <wms-layout></wms-layout>
+    
+    <!-- Top-Level Global Popup Modals -->
+    <wms-order-modal id="global-order-modal"></wms-order-modal>
+    <wms-wave-modal id="global-wave-modal"></wms-wave-modal>
+    <wms-manual-pick-modal id="global-manual-pick-modal"></wms-manual-pick-modal>
+    <wms-inbound-modal id="global-inbound-modal"></wms-inbound-modal>
+    <wms-stock-transfer-modal id="global-stock-transfer-modal"></wms-stock-transfer-modal>
+    <wms-opname-modal id="global-opname-modal"></wms-opname-modal>
+    <wms-pick-path-modal id="global-pick-path-modal"></wms-pick-path-modal>
+    <wms-pack-modal id="global-pack-modal"></wms-pack-modal>
+    <wms-manifest-modal id="global-manifest-modal"></wms-manifest-modal>
+    <wms-return-modal id="global-return-modal"></wms-return-modal>
+    <div id="toast-container"></div>
+  </div>
+
+  <!-- Main ES Module Bootloader -->
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
