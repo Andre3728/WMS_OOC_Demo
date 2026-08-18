@@ -1,0 +1,20 @@
+{
+  "name": "wms-ooc-demo",
+  "version": "1.0.0",
+  "description": "SuperDates WMS - Enterprise Omnichannel Warehouse Management System & Mobile PDA Terminal",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx -y serve -p 8080 .",
+    "start": "npx -y serve -p 8080 .",
+    "serve": "npx -y serve -p 8080 ."
+  },
+  "keywords": [
+    "wms",
+    "omnichannel",
+    "warehouse-management",
+    "pda-terminal",
+    "fulfillment"
+  ],
+  "author": "Andre3728",
+  "license": "MIT"
+}
